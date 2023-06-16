@@ -5,8 +5,6 @@ const RootLayout = () => {
 
     const navigation = useNavigation();
 
-
-
     return (
         <>
             <MainNavigation />
