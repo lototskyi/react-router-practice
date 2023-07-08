@@ -8,8 +8,7 @@ function NewsletterSignup() {
     const { data, state } = fetcher;
 
     useEffect(() => {
-        console.log('test');
-        if (state === 'idle' && data && data.message) {
+         if (state === 'idle' && data && data.message) {
             alert(data.message);
         }
     }, [data, state]);
@@ -22,6 +21,7 @@ function NewsletterSignup() {
         >
             <input
                 type="email"
+                name="email"
                 placeholder="Sign up for newsletter..."
                 aria-label="Sign up for newsletter"
             />

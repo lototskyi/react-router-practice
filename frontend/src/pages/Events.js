@@ -4,6 +4,7 @@ import EventsList from "../components/EventsList";
 import { Suspense } from "react";
 
 function EventsPage() {
+    console.log('test');
     const { events } = useLoaderData();
 
     return (
